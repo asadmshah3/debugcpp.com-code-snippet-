@@ -1,0 +1,13 @@
+//HTML//
+<h1 id="title">hello world</h1>
+
+
+
+//CSS//
+h1 {
+  color : red;
+}
+
+
+//JS//
+document.getElementsByTagName("h1")[0].style.fontSize = "3vw";
