@@ -11,3 +11,13 @@ h1 {
 
 //JS//
 document.getElementsByTagName("h1")[0].style.fontSize = "3vw";
+
+
+function turnBlue() {
+document.getElementById("title").style.color = "blue";
+}
+
+document.getElementById("title").onmouseover = function() {turnBlue()};
+
+
+
